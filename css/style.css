@@ -1,0 +1,457 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.logomarca {
+    width: 100px;
+    height: 33px;
+    background: url(../img/Logo.png); 
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu_li {
+    float: left;
+    margin: 0 10px;
+
+}
+
+.menu_link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.bt-sing-in {
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+
+.bt-sing-up {
+    background-color:  #2F281E;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    padding: 10px 30px;
+    border-radius: 4px;
+
+
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    width: 1110px;                
+    margin: 0 auto;
+}
+
+.apresentação {
+    background: url(../img/Prancheta\ –\ 1.jpg);
+    padding-top: 40px;
+    background-repeat: no-repeat;
+}
+
+.apresentação_box {
+
+}
+
+.title-apresentação {
+    color: #3B3322;
+    font-size: 44px;
+    line-height: 48px;
+
+}
+
+.apresentação_texto {
+    width: 50%;
+    float: left;
+    margin-top: 162px;
+}
+
+.title-apresentação strong {
+    font-weight: 600;
+}
+
+.texto-apresentação {
+    font-size: 18px;
+    color: #544837;
+    line-height: 24px;
+    margin: 40px 0 30px 0;
+
+
+}
+
+.bt-red {
+    background: #FF4F4F;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.apresentação_box2 {
+    float: left;
+    width: 50%;
+    margin-top: 162px;
+}
+
+
+
+.box-icone {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FF4F4F;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-icone img {
+    margin-top: 25px;
+
+}
+
+.box-icone-titulo {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.box-icone-texto {
+    color: #5C5040;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.box-wrapper {
+    width: 25%;
+    float: left;
+}
+
+.box-icone-red {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FF4F4F;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FF4F4F;
+}
+
+.box-icone-red img {
+    margin-top: 25px;
+}
+
+.icones {
+    padding: 200px 0;
+}
+
+#about {
+    background: url(../img/Prancheta\ –\ 2.png) center 0 no-repeat;
+    height: 1000px;
+    margin-top: 233px;
+    margin-bottom: -350px;
+    
+
+}
+
+.box-ilustração {
+    width: 50%;
+    float: left;
+    
+}
+
+.about-box {
+    width: 50%;
+    float: right;
+    
+}
+
+.about-box-title {
+    
+    font-size: 17px;
+    line-height: 19px;
+    color: #262626;
+    
+}
+
+.about-box-title span {
+    float: left;
+    opacity: .7;
+    padding: 7px 10px 0 0;
+}
+
+.about-box-title i {
+    float: left;
+}
+
+.about-box-subtitle {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #262626;
+    margin: 10px 0 20px 0; 
+}
+
+.checklist {
+    background: url(../img/checklist.png) 0 0 no-repeat;
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.item-list-about span {
+    float: left;
+    padding: 5px 0 20px 10px;
+    color: #222222;
+    opacity: .7;
+}
+
+.bt-watch-video {
+    float: left;
+    margin: 7px 0 0 30px;
+}
+
+.bt-know-more {
+    float: left;
+}
+
+.bt-watch-video span {
+    float: left;
+    color: #FF4F4F;
+    font-weight: 500;
+    font-size: 19px;
+    text-decoration: none;
+    margin: 5px 10px 0 0; 
+}
+
+.bt-red-know-more {
+    float: left;
+}
+
+.bt-watch-video i {
+    float: left;
+}
+
+.icone-video {
+    background: url(../img/play.png) 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.box-buttons-about {
+    padding-top: 30px;
+}
+
+
+
+.titulo-testemunha {
+    
+    color: #342D20;
+    line-height: 36px;
+    font-size: 34px;
+    font-weight: 600;
+   
+    margin-bottom: 20px;
+}
+
+.subtitulo-testemunha {
+    color: #544837;
+    font-size: 16px;
+   
+}
+
+.testemunha {
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin: 50px auto 10px auto;
+}
+
+.testemunha-nome {
+    color: #122649;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 500;
+    display: block;
+
+}
+
+.testemunha-profissão {
+    color: #FF4F4F;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin: 10px 0 20px 0;
+    
+
+}
+
+.testemunha-texto {
+    color: #2C4E8B;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+.box-testemunha {
+    text-align: center;
+}
+
+.bullet {
+    background: #122649;
+    opacity: .2;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.bullet.ativo {
+    background: #FF4F4F;
+    opacity: 1;
+}
+
+.title {
+    color: #544837;
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #544837;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+.our-history {
+    margin-top: -350px;
+}
+
+.our-history-box {
+    width: 50%;
+    position: relative;
+    float: left;
+    margin-top: 91px;
+}
+
+.our-history-title {
+    color: #111111;
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.our-history-text {
+    color: #000000;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.our-history-wrapper {
+     padding-left: 70px;
+}
+
+.our-history-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.strong {
+    font-weight: 600;
+}
